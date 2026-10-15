@@ -1,0 +1,41 @@
+# Capturas de tráfego e arquivos compactados do dataset
+/inside.tcpdump*/
+/inside.tcpdump*
+*.pcap
+*.pcapng
+*.tcpdump
+*.tcpdump.gz
+*.tcpdump.zip
+
+# SDK externo instalado localmente
+/npcap-sdk*/
+
+# Executáveis e artefatos de compilação C
+/leitor
+/detector
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
+
+# Resultados reproduzíveis do processamento
+/pacotes_por_minuto.csv
+/resultados_predicao.csv
+/grafico_resultado.png
+
+# Ambiente e cache Python
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Arquivos temporários de editores e do sistema
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
